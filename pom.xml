@@ -9,23 +9,6 @@
   </description>
   <url>http://github.com/sansible/cloudwatch_exporter</url>
 
-  <parent>
-      <groupId>org.sonatype.oss</groupId>
-      <artifactId>oss-parent</artifactId>
-      <version>7</version>
-  </parent>
-
-  <distributionManagement>
-      <snapshotRepository>
-          <id>ossrh</id>
-          <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-      </snapshotRepository>
-      <repository>
-          <id>ossrh</id>
-          <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-      </repository>
-  </distributionManagement>
-
   <licenses>
       <license>
           <name>The Apache Software License, Version 2.0</name>
